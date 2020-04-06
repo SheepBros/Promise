@@ -3,6 +3,9 @@ using System.Collections;
 
 namespace SB.Async
 {
+    /// <summary>
+    /// BasePromise is a basic class of all promises.
+    /// </summary>
     public interface IBasePromise : IEnumerator
     {
         PromiseState State { get; }
